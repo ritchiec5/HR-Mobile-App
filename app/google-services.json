@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "134326925268",
+    "firebase_url": "https://hrapplication-92ef9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hrapplication-92ef9",
+    "storage_bucket": "hrapplication-92ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134326925268:android:046e499cd2fb30257a8841",
+        "android_client_info": {
+          "package_name": "edu.singaporetech.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134326925268-ar2sbe1s5jav6uv86c90vloigsv958s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO4G_CQPZrHMTK0zW0484vAUWbv0onoD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134326925268-ar2sbe1s5jav6uv86c90vloigsv958s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134326925268:android:e02c82368aedebc87a8841",
+        "android_client_info": {
+          "package_name": "edu.singaporetech.hrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134326925268-ar2sbe1s5jav6uv86c90vloigsv958s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO4G_CQPZrHMTK0zW0484vAUWbv0onoD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134326925268-ar2sbe1s5jav6uv86c90vloigsv958s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

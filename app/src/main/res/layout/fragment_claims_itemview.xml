@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    app:cardMaxElevation="3dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <!--
+        In the above cardview widget
+        cardelevation property will give elevation to your card view
+        card corner radius will provide radius to your card view
+        card background color will give background color to your card view
+        card max elevation will give the cardview maximum elevation
+        card prevent corner overlap will add padding to CardView on v20 and
+        before to prevent intersections between the Card content and rounded corners.
+        card use compact padding will add padding in API v21+ as well to have the same
+        measurements with previous versions.
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--Text View to display Course Name-->
+
+        // Submitted Date
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="55555"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"/>
+
+        // Status
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:text="Pending"
+            android:textColor="@color/white"
+            />
+
+        // Category
+        <TextView
+            android:id="@+id/textViewCategory_L"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cmcategory"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewDate"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="asdfasd"
+            android:layout_below="@id/textViewDate"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"/>
+
+
+        // Amount
+        <TextView
+            android:id="@+id/textViewAmount_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Amount"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_below="@id/textViewCategory_L"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:id="@+id/textViewAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="asdfasd"
+            android:layout_below="@id/textViewCategory_L"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

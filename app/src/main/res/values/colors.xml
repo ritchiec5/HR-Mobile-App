@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#C0BEBE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="underline">#D8D6D6</color>
+    <color name="green">#20E313</color>
+
+    // Leave Colors
+    <color name="annualLeave">#A0D2FF</color>
+    <color name="statusTextColor">#383838</color>
+    <color name="pending">#FFBC7E</color>
+
+    <color name="annual">#309CFF</color>
+    <color name="compassion">#A484FF</color>
+    <color name="sick">#FF274E</color>
+    <color name="others">#FFC107</color>
+
+    <color name="deleteColor">#FF4B4B</color>
+
+    // nav bar
+    <color name="nav_bar_color">#CCAEE6</color>
+    <color name="home_icon">#5B37B7</color>
+    <color name="claim_icon">#C9379D</color>
+    <color name="leave_icon">#E6A919</color>
+
+    //claims
+    <color name="orange_pending">#FFBC7E</color>
+    <color name="green_approved">#6DD86B</color>
+    <color name="red_rejected">#FF4B4B</color>
+    <color name="blue_paid">#7EBFFF</color>
+
+    <color name="lightGreen">#15AD90</color>
+    <color name="red">#CB4141</color>
+</resources>
+

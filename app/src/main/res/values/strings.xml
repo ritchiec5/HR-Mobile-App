@@ -1,0 +1,156 @@
+<resources>
+
+    <string name="app_name">WhaleApp</string>
+
+    <string name="paid">Paid</string>
+    <string name="approved">Approved</string>
+    <string name="pending">Pending</string>
+    <string name="rejected">Rejected</string>
+    <string name="claim_limit">Claim Limit</string>
+    <string name="scan_receipt">Scan A Receipt</string>
+    <string name="manual_submission">Manual Submission</string>
+
+
+    <string name="transport">Transport</string>
+    <string name="medical">Medical</string>
+    <string name="allowance">Allowance</string>
+    <string name="others">Others</string>
+    <string name="view_past_records">View Past Records</string>
+    <string name="claims_record">Claims Record</string>
+
+    <string name="date_of_purchase">Date Of Purchase *</string>
+    <string name="category">Category *</string>
+    <string name="amount">Amount *</string>
+    <string name="receiptnum">Receipt Number *</string>
+    <string name="remarks">Remarks</string>
+    <string name="upload_receipt">Upload Receipt *</string>
+
+    <string name="submit">Submit</string>
+    <string name="close">Close</string>
+    <string name="choose_a_file">Choose a file</string>
+
+    <string-array name="category_array">
+        <item>Transport</item>
+        <item>Medical</item>
+        <item>Allowance</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="select_from_photos">Select from photos</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="select_date">Select Date</string>
+    <string name="take_picture">Take A Picture</string>
+
+    //Filter
+    <string-array name="status_array">
+        <item>Status</item>
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Paid</item>
+        <item>Rejected</item>
+    </string-array>
+    <string-array name="cmcategory_array">
+        <item>Category</item>
+        <item>Transport</item>
+        <item>Medical</item>
+        <item>Allowance</item>
+    </string-array>
+    <string name="choose_date">Choose date</string>
+
+    //Filter Leave
+    <string-array name="leave_status_array">
+        <item>Status</item>
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Declined</item>
+    </string-array>
+    <string-array name="leave_type_array">
+        <item>Type</item>
+        <item>Annual</item>
+        <item>Sick</item>
+        <item>Compassion</item>
+        <item>Others</item>
+    </string-array>
+
+    //Records label
+    <string name="cmcategory">Category</string>
+    <string name="Amount">Amount</string>
+
+
+    //claimdetail_title
+    <string name="claimdetial_title">Claim Detail</string>
+    <string name="cddate_of_purchase">Date of purchase</string>
+    <string name="cdamount">Amount</string>
+    <string name="receipt_number">Receipt Number</string>
+    <string name="cdremarks">Remarks</string>
+    <string name="uploaded_file">Uploaded File</string>
+
+    <string name="menu_edit_claims">Edit Claim</string>
+    <string name="menu_delete_claims">Delete Claim</string>
+    <string name="message_delete_claims">Are you sure you want to delete claim request?</string>
+    <string name="confirm_delete_claims">Confirm</string>
+    <string name="close_delete_claims">Close</string>
+
+    // Leaves
+    <string name="TotalLeaves"><b>20</b></string>
+    <string name="LeavesUsed"><b>5</b></string>
+
+    // Leave item
+    <string name="leaveType"><b>Annual Leave</b></string>
+    <string name="detail_type"><b>Annual</b></string>
+    <string name="detail_date_applied"><b>14 Jan 2022</b></string>
+    <string name="detail_day_type"><b>Full Day</b></string>
+    <string name="detail_remarks"><b>Clearing Leave aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</b></string>
+    <string name="application_date"><b>08 Jan 2022</b></string>
+
+    // Leave Overview
+    <string name="leave_used_value">5</string>
+    <string name="leave_approved_value">2</string>
+    <string name="leave_pending_value">2</string>
+    <string name="leave_rejected_value">1</string>
+
+    <string-array name="LeaveTypes">
+        <item>Annual</item>
+        <item>Sick</item>
+        <item>Compassion</item>
+        <item>Others</item>
+    </string-array>
+    <string name="LeaveTypeText">Leave Type:</string>
+    <string name="LeaveDateText">Leave Date:</string>
+    <string name="LeaveShiftText">Leave Shift:</string>
+    <string name="LeaveReasonText">Leave Reason:</string>
+    <string name="FullLeaveShiftText">FULL</string>
+    <string name="AMLeaveShiftText">AM</string>
+    <string name="PMLeaveShiftText">PM</string>
+    <string name="SelectDateText"> Select Date</string>
+    <string name="LeaveReasonHint">Reason for Leave</string>
+    <string name="UploadProofText">Upload Proof</string>
+    <string name="SubmitFormText">Submit</string>
+    <string name="StartToEndText">Start >> End</string>
+
+
+    // Error msg
+    <string name="ErrorMsg">Incorrect password or email</string>
+
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <!-- Strings added   -->
+    <string name="Work">Work</string>
+    <string name="WFH">WFH</string>
+    <string name="Customer_Site">Customer Site</string>
+    <string name="CheckIn">Check In</string>
+    <string name="Help">HELP</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="Retake">Retake</string>
+    <string name="Next">Next</string>
+    <string name="Checkout">Checkout</string>
+    <string name="Arrived"><u> Arrived</u></string>
+    <string name="Input_Receipt_Number">Input Receipt Number</string>
+    <string name="Input_Value">Input Value</string>
+    <string name="Input_Remarks">Input Remarks</string>
+</resources>
+

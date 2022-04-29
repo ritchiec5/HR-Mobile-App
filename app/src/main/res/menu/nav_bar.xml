@@ -1,0 +1,20 @@
+<!-- bottom_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_icon"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_iconColor="@color/white"/>
+    <item
+        android:id="@+id/claims_icon"
+        android:icon="@drawable/ic_baseline_lock_clock_24"
+        android:title="Claim"
+        app:cnb_iconColor="@color/white"/>
+    <item
+        android:id="@+id/leaves_icon"
+        android:icon="@drawable/ic_baseline_note_add_24"
+        android:title="Leave"
+        app:cnb_iconColor="@color/white" />
+
+</menu>
